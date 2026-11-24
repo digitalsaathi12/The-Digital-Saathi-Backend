@@ -9,7 +9,7 @@ class BlogSerializer(serializers.ModelSerializer):
             "title",
             "slug",
             "content",
-            "featured_image",
+            "img_path",
             "published_at",
             "is_published",
             "created_at",
